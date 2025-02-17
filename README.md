@@ -1,0 +1,2 @@
+# The-Adaptive-Weight-Deep-Multi-View-Clustering-Based-on-Cross-View-Matching-and-Class-Separability
+This project focuses on deep multi-view clustering with adaptive feature weighting, leveraging cross-view matching and category separability. The primary goal is to develop an unsupervised learning approach that efficiently handles multi-view data, extracting relevant features from multiple perspectives to improve clustering performance. 
