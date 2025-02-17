@@ -4,6 +4,8 @@ This project focuses on deep multi-view clustering with adaptive feature weighti
 # System Design Document
 In this project, we first construct a reconstruction loss for different views through an encoder-decoder module to learn low-dimensional feature representations. Then, two multi-layer perceptrons (MLPs) are used to extract global features and consensus representations for each view, assigning adaptive feature weights to these representations. These weights are iteratively optimized in conjunction with the clustering loss function via backpropagation.
 Next, we design a cross-view matching loss function based on adaptive feature weights to minimize feature differences between the same sample in different views, achieving consistency alignment. Additionally, a margin-maximizing loss function is introduced to enhance category separability. Finally, a clustering method is employed to generate clustering results. 
+![workflow](https://github.com/user-attachments/assets/edd64e03-e2cd-4216-a6f4-b48b6242f1ef)
+
 
 # Specification Document
 The purpose of this project is to perform deep multi-view clustering in an unsupervised manner. The input to the encoder is multi-view data, which is then processed to output initial feature representations. These outputs serve as inputs to the decoder for view reconstruction, resulting in the first loss value.
