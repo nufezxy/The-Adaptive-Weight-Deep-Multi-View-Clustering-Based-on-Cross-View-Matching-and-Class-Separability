@@ -34,10 +34,9 @@ For testing experiments, I used four datasets: BDGP, Fashion, Caltech-5V, and MN
     MNIST-USPS: 50 contrastive learning epochs
 
 # Results:
-| Dataset | ACC (%) | NMI (%) | PUR (%)) |
+| Dataset | ACC (%) | NMI (%) | PUR (%) |
 |----------|----------|----------|----------|
 | BDGP | 99.48 | 98.17 | 99.48 |
-
-Fashion		  97.74        95.77        97.74
-Caltech-5V			
-MNIST-USPS			
+| Fashion | 97.74 | 95.77 | 97.74 |
+| Caltech-5V | 83.50 | 74.19 | 83.50 |
+| MNIST-USPS | 98.90 | 97.13 | 98.90 |
